@@ -1,4 +1,4 @@
 # Create an arbitrary local resource
 data "template_file" "test" {
-  template = "Hello git ${var.name}!"
+  template = "Hello git2 ${var.name}!"
 }
